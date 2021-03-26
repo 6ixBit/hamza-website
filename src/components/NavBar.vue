@@ -11,7 +11,18 @@
   </nav>
 
   <div class="general_section">
-      general...
+      <div class="description">
+          Lorem ipsum and sold it to K sams on his podcast.
+
+          <div class="description_buttons">
+              <button class="learnMoreButton"> Learn more </button>
+              <button class="getInTouchButton"> Get in touch </button> <!-- push to #contact -->
+          </div>
+      </div>
+
+      <div class="round_outer_image">
+          <img class="inner_img" src="/hamza.jpeg" alt="Icon of hamza">
+      </div>
   </div>
 
   <div class="about_section">
@@ -32,6 +43,27 @@ export default {
 </script>
 
 <style scoped>
+
+.inner_img {
+    @apply rounded-full h-44 w-44;
+}
+
+.learnMoreButton {
+    @apply text-white bg-black rounded-md font-bold py-2 px-2 mx-4;
+}
+
+.getInTouchButton {
+    @apply text-black bg-white rounded-md py-2 px-2 border-2 border-black;
+}
+
+.description {
+    @apply flex justify-start w-1/4;
+}
+
+.round_outer_image {
+    @apply flex justify-end w-3/4;
+}
+
 .navBar {
   @apply bg-gray-300 h-12 shadow-xl;
 }
