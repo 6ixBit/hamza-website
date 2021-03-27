@@ -84,11 +84,11 @@ export default {
 }
 
 .nav_items {
-  @apply flex justify-end space-x-4 py-4 mr-4 md:mr-72 font-bold;
+  @apply flex  justify-end lg:justify-end space-x-4 py-4 mr-4 lg:mr-60 font-bold;
 }
 
 .nav_title {
-  @apply flex justify-self-start md:w-1/4 mr-32 lg:mr-32 md:mr-80 font-black text-lg md:text-xl;
+  @apply flex justify-self-start md:w-2/4 md:ml-16 md:text-xl md:text-lg md:mr-80 lg:mr-32  font-black text-sm mr-8;
 }
 
 .general_section {
@@ -108,7 +108,7 @@ export default {
 }
 
 .about_text {
-    @apply font-mono break-words text-lg py-4 px-6 md:px-72 text-center;
+    @apply font-mono break-words text-lg py-4 px-6 lg:px-72 text-center;
 }
 
 </style>
