@@ -88,7 +88,7 @@ export default {
 }
 
 .nav_title {
-  @apply flex justify-self-start md:w-2/4 md:ml-16 md:text-xl md:text-lg md:mr-80 lg:mr-32  font-black text-sm mr-8;
+  @apply flex justify-self-start md:w-2/4 md:ml-16 md:mr-28 md:text-xl md:text-lg md:mr-80 lg:mr-4  font-black text-sm mr-8;
 }
 
 .general_section {
