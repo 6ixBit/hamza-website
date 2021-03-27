@@ -12,7 +12,13 @@
 
   <div class="general_section">
       <div class="description">
-          Lorem ipsum and sold it to K sams on his podcast.
+
+          <h2 class="description_title">Web Developer, Tech Enthusiast, and Book Worm.</h2>
+
+          <p class="description_text">
+             When an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book. 
+          </p>
 
           <div class="description_buttons">
               <button class="learnMoreButton"> Learn more </button>
@@ -20,9 +26,8 @@
           </div>
       </div>
 
-      <div class="round_outer_image">
-          <img class="inner_img" src="/hamza.jpeg" alt="Icon of hamza">
-      </div>
+       <img class="inner_img" src="/hamza.jpeg" alt="Icon of hamza">
+ 
   </div>
 
   <div class="about_section">
@@ -45,7 +50,7 @@ export default {
 <style scoped>
 
 .inner_img {
-    @apply rounded-full h-44 w-44;
+    @apply rounded-full h-44 w-44 mt-6 md:mr-24;
 }
 
 .learnMoreButton {
@@ -57,15 +62,24 @@ export default {
 }
 
 .description {
-    @apply flex justify-start w-1/4;
+    @apply mt-6 w-72;
 }
 
-.round_outer_image {
-    @apply flex justify-end w-3/4;
+.description_title {
+    @apply mb-4 font-black text-2xl text-black;
 }
+
+
+
+.description_buttons {
+    @apply mt-6;
+}
+
+
+
 
 .navBar {
-  @apply bg-gray-300 h-12 shadow-xl;
+  @apply h-12 shadow-xl;
 }
 
 .nav_items {
@@ -77,7 +91,11 @@ export default {
 }
 
 .general_section {
-    @apply text-gray-400 h-96 text-black;
+    @apply flex md:flex-row flex-col justify-around text-gray-400 h-96 text-black;
+}
+
+.image_container {
+    @apply mt-6 mr-8;
 }
 
 .about_section {
