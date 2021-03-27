@@ -1,9 +1,7 @@
 <template>
   <nav class="navBar">
     <span class="nav_items">
-        <div class="nav_title">
-            <a>Hamza C.</a>
-        </div>
+      <a class="nav_title">Hamza Carew.</a>
       <a> About </a>
       <a> Portfolio </a>
       <a>Contact </a>
@@ -27,7 +25,6 @@
       </div>
 
        <img class="inner_img" src="/hamza.jpeg" alt="Icon of hamza">
- 
   </div>
 
   <div class="about_section">
@@ -49,8 +46,13 @@ export default {
 
 <style scoped>
 
+/* 
+- reduce size of title on mobile
+
+*/
+
 .inner_img {
-    @apply rounded-full h-44 w-44 mt-6 md:mr-24;
+    @apply rounded-full lg:h-56 lg:w-56 h-28 w-28 md:h-48 md:w-48  mt-10 md:mt-6 md:mr-24 order-first md:order-last lg:mr-32;
 }
 
 .learnMoreButton {
@@ -62,24 +64,23 @@ export default {
 }
 
 .description {
-    @apply mt-6 w-72;
+    @apply mt-10 w-72;
 }
 
 .description_title {
     @apply mb-4 font-black text-2xl text-black;
 }
 
-
-
 .description_buttons {
     @apply mt-6;
 }
 
-
-
+.description_text {
+    @apply text-black text-left;
+}
 
 .navBar {
-  @apply h-12 shadow-xl;
+  @apply h-12 shadow-lg text-black;
 }
 
 .nav_items {
@@ -87,11 +88,11 @@ export default {
 }
 
 .nav_title {
-  @apply flex justify-self-start mr-9 md:mr-96 w-1/5 font-black text-xl;
+  @apply flex justify-self-start md:w-1/4 mr-32 lg:mr-32 md:mr-80 font-black text-lg md:text-xl;
 }
 
 .general_section {
-    @apply flex md:flex-row flex-col justify-around text-gray-400 h-96 text-black;
+    @apply flex items-center md:flex-row flex-col justify-center md:justify-around text-gray-400 h-96 text-black;
 }
 
 .image_container {
@@ -107,7 +108,8 @@ export default {
 }
 
 .about_text {
-    @apply font-mono break-words text-lg py-6 px-6 md:px-72 text-center;
+    @apply font-mono break-words text-lg py-4 px-6 md:px-72 text-center;
 }
 
 </style>
+
