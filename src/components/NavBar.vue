@@ -1,10 +1,10 @@
 <template>
   <nav class="navBar">
     <span class="nav_items">
-      <a class="nav_title">Hamza Carew.</a>
-      <a> About </a>
-      <a> Portfolio </a>
-      <a>Contact </a>
+      <p class="nav_title">Hamza Carew.</p>
+      <a href="#about"> About </a>
+      <a href="#projects"> Projects </a>
+      <a href="#contact">Contact </a>
     </span>
   </nav>
 
@@ -27,7 +27,7 @@
        <img class="inner_img" src="/hamza.jpeg" alt="Icon of hamza">
   </div>
 
-  <div class="about_section">
+  <div class="about_section" id="about">
       <h2 class="about_title">About</h2>
 
       <p class="about_text">
@@ -36,6 +36,21 @@
           type and scrambled it to make a type specimen book.
       </p>
   </div>
+
+    <div class="projects_section" id="projects">
+        <h2 class="projects_title">Projects portal</h2>
+
+        <p class="projects_intro">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of 
+            type and scrambled it to make a type specimen book.
+        </p>
+
+        <!-- Add container of cards, each card represents a project currently up. -->
+    </div>
+
+
+
 </template>
 
 <script>
@@ -47,12 +62,25 @@ export default {
 <style scoped>
 
 /* 
-- reduce size of title on mobile
+- make column and set z index ontop of about section
+- add white background for third section of page
+- add github, linkedin and email svg underneath avatar.
+- add svg icons as stack in about section.
+
+- forgot that I stupidly coded the entire frontend webpage in one component, lmao.
 
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .inner_img {
-    @apply rounded-full lg:h-56 lg:w-56 h-28 w-28 md:h-48 md:w-48  mt-10 md:mt-6 md:mr-24 order-first md:order-last lg:mr-32;
+    @apply rounded-full lg:h-56 lg:w-56 h-28 w-28 md:h-48 md:w-48 mt-10 md:mt-6 md:mr-24 order-first md:order-last lg:mr-32;
 }
 
 .learnMoreButton {
@@ -64,7 +92,7 @@ export default {
 }
 
 .description {
-    @apply mt-10 w-72;
+    @apply mt-4 md:mt-10 w-72;
 }
 
 .description_title {
@@ -80,7 +108,7 @@ export default {
 }
 
 .navBar {
-  @apply h-12 shadow-lg text-black;
+  @apply h-12 shadow-lg text-black sticky;
 }
 
 .nav_items {
@@ -100,7 +128,7 @@ export default {
 }
 
 .about_section {
-    @apply bg-black h-80 text-white py-6 mt-10;
+    @apply bg-black h-96 md:h-80  text-white py-6 mt-10;
 }
 
 .about_title {
@@ -109,6 +137,18 @@ export default {
 
 .about_text {
     @apply font-mono break-words text-lg py-4 px-6 lg:px-72 text-center;
+}
+
+.projects_section {
+    @apply h-96 md:h-80 py-6;
+}
+
+.projects_title {
+    @apply font-mono text-2xl font-bold;
+}
+
+.projects_intro {
+    @apply font-mono break-words text-lg py-4 px-6 lg:px-72;
 }
 
 </style>
