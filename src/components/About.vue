@@ -2,9 +2,10 @@
   <div class="about_section" id="about"> 
     <h2 class="about_title">About</h2> 
   <p class="about_text"> 
-    Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen books.
+  I'm Hamza. I'm a full stack developer who enjoys working with modern technology 
+  on both sides of the stack. I initially started out doing Cyber security at the start of my degree but 
+  got into programming outside of class and eventually ended up switching to BSc Computer Science in which I
+  graduated with a First Class Honors in 2020.
   </p>
 
   <ul class="stack_icons">
@@ -27,7 +28,8 @@ export default {
 
 <style scoped>
 .about_section {
-  @apply bg-black h-96 md:h-80  text-white py-6 mt-10;
+  @apply bg-black md:h-80  text-white py-6 mt-10;
+  height: 25rem;
 }
 
 .about_title {
@@ -35,10 +37,10 @@ export default {
 }
 
 .about_text {
-  @apply font-mono break-words text-lg py-4 px-6 lg:px-72 text-center;
+  @apply font-mono break-words text-sm md:text-lg py-1 md:py-4 px-6 lg:px-72 text-center;
 }
 
 .stack_icons {
-  @apply flex flex-wrap md:w-full md:flex-nowrap justify-center flex-row space-x-4 mt-6 md:mt-4;
+  @apply flex flex-wrap md:w-full md:flex-nowrap justify-center flex-row space-x-4 mt-6 md:mt-4 md:mb-8;
 }
 </style>

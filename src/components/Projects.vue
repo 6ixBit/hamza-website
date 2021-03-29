@@ -3,9 +3,10 @@
     <h2 class="projects_title">Projects portal</h2>
 
     <p class="projects_intro">
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+      Here is a glimpse of some of the projects I've previously worked on,
+      to see more visit my
+      <a href="https://github.com/6ixBit" class="bg-purple-400 font-bold"><u>Github.</u>
+      </a>
     </p>
 
        <ul class="icons">

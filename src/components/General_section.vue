@@ -6,8 +6,8 @@
       </h2>
 
       <p class="description_text">
-        When an unknown printer took a galley of type and scrambled it to make a
-        type specimen book.
+        Fascinated by interesting concepts that allow my brain to wander, 
+        I spend my time exploring things in tech that I think are cool
       </p>
 
       <div class="description_buttons">
