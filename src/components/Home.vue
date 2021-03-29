@@ -13,8 +13,8 @@
       </p>
 
       <div class="description_buttons">
-        <button class="learnMoreButton">Learn more</button>
-        <button class="getInTouchButton">Get in touch</button>
+        <button class="learnMoreButton">E-mail</button>
+        <button class="getInTouchButton">Download CV</button>
         <!-- push to #contact -->
       </div>
     </div>
@@ -28,7 +28,7 @@
     <p class="about_text">
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+      make a type specimen books.
     </p>
   </div>
 
@@ -40,6 +40,8 @@
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     </p>
+
+   
 
     <!-- Add container of cards, each card represents a project currently up. -->
   </div>
