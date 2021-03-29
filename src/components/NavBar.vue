@@ -49,8 +49,15 @@
         <!-- Add container of cards, each card represents a project currently up. -->
     </div>
 
+    <footer>
+        <div class="footer">
+            <p>GitHub </p>
 
-
+            <ul class="icons">
+                <a href="">Telegram</a>
+            </ul>
+        </div>
+    </footer>
 </template>
 
 <script>
@@ -149,6 +156,10 @@ a:hover {
 
 .projects_intro {
     @apply font-mono break-words text-lg py-4 px-6 lg:px-72;
+}
+
+.footer {
+    @apply flex justify-between items-center bg-black text-white px-6 bottom-0 left-0 w-full h-16;
 }
 
 </style>
