@@ -10,11 +10,11 @@
   <ul class="stack_icons">
     <img src="/golang.svg" alt="golang icon">
     <img src="/python.svg" alt="python icon" />
-    <img src="javascript.svg" alt="javascript icon" />
-    <img src="vue.svg" alt="vue icon" />
-    <img src="docker.svg" alt="docker icon" />
-    <img src="kubernetes.svg" alt="kubernetes icon" />
-    <img src="firestore.svg" alt="firestore icon" />
+    <img src="/js.svg" alt="javascript_icon" />
+    <img src="/vue.svg" alt="vue icon" />
+    <img src="/docker.svg" alt="docker icon" />
+    <img src="/kubernetes.svg" alt="kubernetes icon" />
+    <img src="/firestore.svg" alt="firestore icon" />
   </ul>
    </div>
 </template>
