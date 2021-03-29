@@ -14,14 +14,12 @@ import About from "./About.vue";
 import General_section from "./General_section.vue";
 </script>
 
-<style scoped>
-
+<style>
 /* 
   - make column and set z index ontop of about section
   - add github, linkedin and email svg underneath avatar.
   - add svg icons as stack in about section.
 */
-
 html {
   scroll-behavior: smooth;
 }

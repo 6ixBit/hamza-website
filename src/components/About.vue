@@ -1,4 +1,3 @@
-vue
 <template lang="">
   <div class="about_section" id="about"> <h2 class="about_title">About</h2> <p
   class="about_text"> Lorem Ipsum has been the industry's standard dummy text

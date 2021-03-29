@@ -8,7 +8,11 @@
       make a type specimen book.
     </p>
 
-   
+       <ul class="icons">
+        <img class="fill-current text-white" src="/github.svg" alt="github_icon">
+        <!-- <img src="/linkedin.svg" alt="linkedin_icon"> -->
+        <img src="/email.svg" alt="email_icon">
+      </ul> 
 
     <!-- Add container of cards, each card represents a project currently up. -->
   </div>
@@ -21,6 +25,10 @@ export default {
 </script>
 
 <style scoped>
+.icons {
+ @apply flex flex-row space-x-4 z-10 fill-current text-white;
+}
+
 .projects_section {
   @apply h-96 md:h-80 py-6;
 }
