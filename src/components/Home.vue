@@ -13,8 +13,8 @@
       </p>
 
       <div class="description_buttons">
-        <button class="learnMoreButton">E-mail</button>
-        <button class="getInTouchButton">Download CV</button>
+        <a href="mailto:h@gmail.com" class="emailButton">E-mail</a>
+        <a class="cvButton" href="/HamzaCV.pdf">Download CV</a>
         <!-- push to #contact -->
       </div>
     </div>
@@ -66,19 +66,15 @@ html {
   scroll-behavior: smooth;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .inner_img {
   @apply rounded-full lg:h-56 lg:w-56 h-28 w-28 md:h-48 md:w-48 mt-10 md:mt-6 md:mr-24 order-first md:order-last lg:mr-32;
 }
 
-.learnMoreButton {
+.emailButton {
   @apply text-white bg-black rounded-md font-bold py-2 px-2 mx-4;
 }
 
-.getInTouchButton {
+.cvButton {
   @apply text-black bg-white rounded-md py-2 px-2 border-2 border-black;
 }
 

@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style scoped>
+a:hover {
+  text-decoration: underline;
+}
 
 .navBar {
   @apply h-12 shadow-lg text-black sticky;
