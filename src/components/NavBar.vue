@@ -6,10 +6,7 @@
       <a href="#projects"> Projects </a>
       <a href="#contact">Contact </a>
     </span>
-  </nav>
-
-
-  
+  </nav>  
 </template>
 
 <script>
@@ -19,16 +16,6 @@ export default {
 </script>
 
 <style scoped>
-
-/* 
-- make column and set z index ontop of about section
-- add white background for third section of page
-- add github, linkedin and email svg underneath avatar.
-- add svg icons as stack in about section.
-
-- forgot that I stupidly coded the entire frontend webpage in one component, lmao.
-
-*/
 
 .navBar {
   @apply h-12 shadow-lg text-black sticky;
