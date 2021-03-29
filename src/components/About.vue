@@ -9,14 +9,14 @@
 
   <ul class="stack_icons">
     <img src="/golang.svg" alt="golang icon">
-    <img src="/python.svg" alt="python icon" />
-    <img src="/js.svg" alt="javascript_icon" />
-    <img src="/vue.svg" alt="vue icon" />
-    <img src="/docker.svg" alt="docker icon" />
-    <img src="/kubernetes.svg" alt="kubernetes icon" />
-    <img src="/firestore.svg" alt="firestore icon" />
+    <img src="/python.svg" alt="python icon"/>
+    <img src="/js.svg" alt="javascript_icon"/>
+    <img src="/vue.svg" alt="vue icon"/>
+    <img src="/docker.svg" alt="docker icon"/>
+    <img src="/kubernetes.svg" alt="kubernetes icon"/>
+    <img src="/firestore.svg" alt="firestore icon"/>
   </ul>
-   </div>
+  </div>
 </template>
 
 <script>
@@ -39,6 +39,6 @@ export default {
 }
 
 .stack_icons {
-  @apply flex flex-wrap md:flex-nowrap justify-center flex-row space-x-4 mt-6 md:mt-4;
+  @apply flex flex-wrap md:w-full md:flex-nowrap justify-center flex-row space-x-4 mt-6 md:mt-4;
 }
 </style>

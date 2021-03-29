@@ -10,7 +10,7 @@
         <a href="https://www.linkedin.com/in/hamza-carew-26b05b159/">
           <img src="/linkedin.svg" alt="linkedin_icon" />
         </a>
-        <a href="mailto:h@gmail.com">
+        <a href="mailto:admin@hamzacarew.com">
           <img src="/email.svg" alt="email_icon" />
         </a>
       </ul>

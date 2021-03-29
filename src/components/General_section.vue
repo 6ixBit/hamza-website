@@ -11,9 +11,8 @@
       </p>
 
       <div class="description_buttons">
-        <a href="mailto:h@gmail.com" class="emailButton">E-mail</a>
-        <a class="cvButton" href="/HamzaCV.pdf">Download CV</a>
-        <!-- push to #contact -->
+        <a href="mailto:admin@hamzacarew.com" class="emailButton">E-mail</a>
+        <a class="cvButton" href="/HamzaCV.pdf">View CV</a>
       </div>
     </div>
 
