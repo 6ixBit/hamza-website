@@ -2,18 +2,17 @@
   <div class="general_section">
     <div class="description">
       <h2 class="description_title">
-        Web Developer, Tech Enthusiast, and Book Worm.
+        Software Developer, Tech Enthusiast, and Book Worm.
       </h2>
 
       <p class="description_text">
-        When an unknown printer took a galley of type and scrambled it to make a
-        type specimen book.
+        Fascinated by interesting concepts that allow my brain to wander, 
+        I spend my time exploring things in tech that I think are cool
       </p>
 
       <div class="description_buttons">
-        <a href="mailto:h@gmail.com" class="emailButton">E-mail</a>
-        <a class="cvButton" href="/HamzaCV.pdf">Download CV</a>
-        <!-- push to #contact -->
+        <a href="mailto:admin@hamzacarew.com" class="emailButton">E-mail</a>
+        <a class="cvButton" href="/HamzaCV.pdf">View CV</a>
       </div>
     </div>
 

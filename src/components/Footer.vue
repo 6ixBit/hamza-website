@@ -10,7 +10,7 @@
         <a href="https://www.linkedin.com/in/hamza-carew-26b05b159/">
           <img src="/linkedin.svg" alt="linkedin_icon" />
         </a>
-        <a href="mailto:h@gmail.com">
+        <a href="mailto:admin@hamzacarew.com">
           <img src="/email.svg" alt="email_icon" />
         </a>
       </ul>
@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .footer {
-  @apply flex flex-col md:flex-row justify-between items-center bg-black text-white px-16 md:px-28 w-full h-20;
+  @apply flex flex-col md:flex-row justify-between items-center bg-black text-white px-16 md:px-28 w-full md:h-16 h-20;
 }
 
 p {
