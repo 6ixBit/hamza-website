@@ -2,7 +2,7 @@
   <div class="general_section">
     <div class="description">
       <h2 class="description_title">
-        Web Developer, Tech Enthusiast, and Book Worm.
+        Software Developer, Tech Enthusiast, and Book Worm.
       </h2>
 
       <p class="description_text">

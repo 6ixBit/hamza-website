@@ -2,10 +2,10 @@
   <div class="about_section" id="about"> 
     <h2 class="about_title">About</h2> 
   <p class="about_text"> 
-  I'm Hamza. I'm a full stack developer who enjoys working with modern technology 
+  I'm <b>Hamza</b>, a Full Stack Developer who enjoys working with modern technology 
   on both sides of the stack. I initially started out doing Cyber security at the start of my degree but 
   got into programming outside of class and eventually ended up switching to BSc Computer Science in which I
-  graduated with a First Class Honors in 2020.
+  graduated with a <b>First Class Honors</b> in 2020.
   </p>
 
   <ul class="stack_icons">
