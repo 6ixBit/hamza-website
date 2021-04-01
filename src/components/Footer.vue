@@ -27,7 +27,8 @@ export default {
 
 <style scoped>
 .footer {
-  @apply flex flex-col md:flex-row justify-between items-center bg-black text-white px-16 md:px-28 w-full md:h-16 h-20;
+  @apply flex flex-col md:flex-row justify-between items-center 
+  bg-black text-white px-16 md:px-28 w-full md:h-16 h-20;
 }
 
 p {
