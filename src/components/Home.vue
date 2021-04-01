@@ -23,4 +23,8 @@ import General_section from "./General_section.vue";
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  height: 100vh;
+}
 </style>
