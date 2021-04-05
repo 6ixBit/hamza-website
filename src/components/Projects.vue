@@ -9,7 +9,7 @@
     </p>
 
     <div class="cards">
-      <ProjectCard name="xStat" description="I said let me" techStack="Python"/>
+      <ProjectCard name="xStat" description="Sorry, too busy Leetcoding to finish! :/" techStack="Python"/>
     </div>
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .cards {
-  @apply flex justify-center my-8;
+  @apply flex justify-center mt-4 md:mt-6;
 }
 
 .icons {
@@ -35,7 +35,8 @@ export default {
 }
 
 .projects_section {
-  @apply h-96 md:h-80 py-6;
+  @apply md:h-80 py-6;
+  height: 26rem;
 }
 
 .projects_title {
