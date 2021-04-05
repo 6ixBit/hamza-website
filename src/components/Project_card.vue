@@ -1,11 +1,17 @@
 <template>
     <div class="card">
-        
-        <h1>{{name}}</h1> 
-        {{description}}
-        {{techStack}}
+
+        <!-- s -->
+
+        <img src="/futurama.svg" />
+       
+        <p class="description">
+          {{description}}
+        </p>        
+
+        <!-- <p class="tech_stack">{{techStack}}</p>     -->
     </div>
- 
+
 </template>
 
 <script>
@@ -17,8 +23,16 @@ export default {
 
 <style scoped>
    .card {
-       @apply flex justify-center rounded-lg 
-       h-48 w-96 border-2 
-       border-transparent shadow-lg my-8;
+       @apply flex justify-center items-center flex-col rounded-lg 
+       h-48  w-80 md:w-96 border-2 font-mono font-black font-bold
+       border-black shadow-2xl;
+   }
+
+   img {
+       @apply w-20 mt-4 mb-4;
+   }
+
+   .description {
+       @apply font-black text-base;
    }
 </style>
